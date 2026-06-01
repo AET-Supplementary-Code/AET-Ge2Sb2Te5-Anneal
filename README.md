@@ -2,7 +2,7 @@
 
 **Correlation between nanoscale spatial heterogeneity and primary crystallization in amorphous Ge<sub>2</sub>Sb<sub>2</sub>Te<sub>5</sub> materials**
 
-Huang Huang<sup>1</sup>, Jiong Zhou<sup>1</sup>, Junhan Hou<sup>2</sup>, Xi Yang<sup>3</sup>,  Huipu Liu<sup>1</sup>, Fan Zhu<sup>1*</sup>    
+Huang Huang<sup>1</sup>, Jiong Zhou<sup>1</sup>, Junhan Hou<sup>1</sup>, Xi Yang<sup>1</sup>,  Huipu Liu<sup>1</sup>, Fan Zhu<sup>1*</sup>    
 
 <sup>1</sup>College of Smart Materials and Future Energy, Fudan University, Shanghai 200438, China    
 **Correspondence and requests for materials should be addressed to corresponding author (fzhu@fudan.edu.cn).*     
