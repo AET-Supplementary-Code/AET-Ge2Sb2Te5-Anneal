@@ -4,14 +4,14 @@ clear
 clc
 addpath('./src/');
 inputpath='./Output/';
-saveprefix='Atom_tracing_non_atom_removed_anneal_120min_GST';
+saveprefix='Atom_tracing_non_atom_removed_anneal_60min_GST';
 
 % load recontrcution volume
-rec = importdata('../3_Final_reconstruction_volume/anneal_120min_GST_volume.mat');
+rec = importdata('../3_Final_reconstruction_volume/anneal_60min_GST_volume.mat');
 rec=double(rec);
 
 % load tracing results
-TracingResult = importdata([inputpath 'Atom_tracing_all_peaks_anneal_120min_GST']);
+TracingResult = importdata([inputpath 'Atom_tracing_all_peaks_anneal_60min_GST']);
 atom_pos = TracingResult.TotPosArr(TracingResult.exitFlagArr==0,:)';
 
 atom_pos= (atom_pos / 3) - 2;

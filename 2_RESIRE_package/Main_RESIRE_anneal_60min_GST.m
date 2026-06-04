@@ -14,7 +14,7 @@ addpath('./src/')
 % please run this on super computer due to the large array size and
 % oversampling ratio
 RESIRE = RESIRE_reconstructor();
-Path = '../1_Measured_data/anneal_120min_GST_nanoparticle/';
+Path = '../1_Measured_data/anneal_60min_GST_nanoparticle/';
 RESIRE.filename_Projections = [Path 'proj.mat'];
 RESIRE.filename_Angles = [Path 'angle1.mat'];
 RESIRE.filename_Support = ''; 
@@ -43,5 +43,5 @@ RESIRE = readFiles(RESIRE);
 RESIRE = CheckPrepareData(RESIRE);
 RESIRE = reconstruct_control(RESIRE);
 Reconstruction = RESIRE.reconstruction;
-save('./Output/anneal_120min_GST_volume.mat','Reconstruction')
+save('./Output/anneal_60min_GST_volume.mat','Reconstruction')
 %SaveResults(RESIRE);

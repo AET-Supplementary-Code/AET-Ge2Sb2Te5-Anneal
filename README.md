@@ -50,7 +50,7 @@ This folder contains experimental images after denoising and alignment as well a
 
 Folder: [2_RESIRE_package](./2_RESIRE_package)
 
-Run the code `Main_RESIRE_as_dep_GST.m`,`Main_RESIRE_anneal_30min_GST.m`,`Main_RESIRE_anneal_120min_GST.m` to achieve the 3D reconstruction of the three Ge<sub>2</sub>Sb<sub>2</sub>Te<sub>5</sub> nanoparticles.
+Run the code `Main_RESIRE_as_dep_GST.m`,`Main_RESIRE_anneal_30min_GST.m`,`Main_RESIRE_anneal_60min_GST.m` to achieve the 3D reconstruction of the three Ge<sub>2</sub>Sb<sub>2</sub>Te<sub>5</sub> nanoparticles.
 
 ### 3. Reconstructed 3D Volume
 
@@ -62,9 +62,9 @@ This folder includes the 3D reconstructed volumes of the three Ge<sub>2</sub>Sb<
 
 Folder: [4_Atom_tracing](./4_Atom_tracing)
 
-Run the codes `Main_atom_tracing_as_dep_GST.m`, `Main_atom_tracing_anneal_30min_GST.m` and `Main_atom_tracing_anneal_120min_GST.m` to trace the candidate atomic positions from the reconstructed 3D volumes.
+Run the codes `Main_atom_tracing_as_dep_GST.m`, `Main_atom_tracing_anneal_30min_GST.m` and `Main_atom_tracing_anneal_60min_GST.m` to trace the candidate atomic positions from the reconstructed 3D volumes.
 
-Run the codes `Main_remove_non_atom_peak_as_dep_GST.m`, `Main_remove_non_atom_peak_aanneal_30min_GST.m` and `Main_remove_non_atom_peak_aanneal_120min_GST.m` to distinguish non-atoms from the candidate atoms via the K-mean clustering method. Through carefully comparison between the individual atomic positions in the candidate atomic models and the 3D reconstructions, a small fraction of unidentified or misidentified atoms were manually corrected, producing the 3D atomic models of the three Ge<sub>2</sub>Sb<sub>2</sub>Te<sub>5</sub> nanoparticles.
+Run the codes `Main_remove_non_atom_peak_as_dep_GST.m`, `Main_remove_non_atom_peak_aanneal_30min_GST.m` and `Main_remove_non_atom_peak_aanneal_60min_GST.m` to distinguish non-atoms from the candidate atoms via the K-mean clustering method. Through carefully comparison between the individual atomic positions in the candidate atomic models and the 3D reconstructions, a small fraction of unidentified or misidentified atoms were manually corrected, producing the 3D atomic models of the three Ge<sub>2</sub>Sb<sub>2</sub>Te<sub>5</sub> nanoparticles.
 
 ### 5. Experimental Atomic Model
 
@@ -76,4 +76,4 @@ This folder includes the final 3D atomic models of the three Ge<sub>2</sub>Sb<su
 
 Folder: [6_Data_analysis](./6_Data_analysis)
 
-Run the codes `RDF_as_dep_GST.m`, `RDF_anneal_30min_GST.m` and `RDF_anneal_120min_GST.m` to calculate the radial distribution functions for all the atoms in the three amorphous materials.
+Run the codes `RDF_as_dep_GST.m`, `RDF_anneal_30min_GST.m` and `RDF_anneal_60min_GST.m` to calculate the radial distribution functions for all the atoms in the three amorphous materials.

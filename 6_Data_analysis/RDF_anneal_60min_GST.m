@@ -6,8 +6,8 @@ addpath('src/')
 addpath('input/')
 
 % read in files: finalized atomic coordinates in Angstrom and types
-model = importdata('./Input/Final_atomic_model_anneal_120min_GST.mat');
-atoms = importdata('./Input/Final_atomtype_anneal_120min_GST.mat');
+model = importdata('./Input/Final_atomic_model_anneal_60min_GST.mat');
+atoms = importdata('./Input/Final_atomtype_anneal_60min_GST.mat');
 
 % set the parameters: step size and the range for rdf and pdf
 step = 0.1;  cutoff = 10;
@@ -67,4 +67,4 @@ for i=1:size(submodel,2)
     
 end
 
-save('./OutPut/RDF_anneal_120min_GST.mat','radius_arr','rdf_arr','pdf_arr')
+save('./OutPut/RDF_anneal_60min_GST.mat','radius_arr','rdf_arr','pdf_arr')

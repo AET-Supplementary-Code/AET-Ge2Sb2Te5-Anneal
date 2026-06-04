@@ -6,8 +6,8 @@
 
 addpath('./src')
 inputDir = '';
-Recon_filename_part1 = [inputDir '../3_Final_reconstruction_volume/anneal_120min_GST_volume_part1.mat'];
-Recon_filename_part2 = [inputDir '../3_Final_reconstruction_volume/anneal_120min_GST_volume_part2.mat'];
+Recon_filename_part1 = [inputDir '../3_Final_reconstruction_volume/anneal_60min_GST_volume_part1.mat'];
+Recon_filename_part2 = [inputDir '../3_Final_reconstruction_volume/anneal_60min_GST_volume_part2.mat'];
 % load reconstructed 3D volume
 Dsetvol_part1 = importdata(Recon_filename_part1);
 Dsetvol_part2 = importdata(Recon_filename_part2);
@@ -22,7 +22,7 @@ MaxIter = 14;   CritIter = 7;   Th = 1;
 saveInterval = 1000;    numpeak=1000000; Res = 0.421347/3;
 minDist = 2.5 / Res;    SearchRad = 3;
 
-ourputstring = [inputDir './Output/Atom_tracing_all_peaks_anneal_120min_GST'];
+ourputstring = [inputDir './Output/Atom_tracing_all_peaks_anneal_60min_GST'];
 
 BoxSize0=3; %box size used for average when sorting peaks
 BoxSize1=9; %box size used to find maxima
